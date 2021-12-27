@@ -190,6 +190,11 @@ body{
 
 /* =====================section==================== */
 
+.type{
+      margin-bottom: 188px;
+
+}
+
 .type__section{
       background-image: url('../images/Group-5.svg');
       background-repeat: no-repeat;
@@ -203,8 +208,7 @@ body{
       padding: 0;
       list-style: none;
       display: flex;
-      justify-content: space-around;
-      align-items: center;
+      padding: 0px 88px;
 }
 
 .type__list{
@@ -235,4 +239,208 @@ body{
       line-height: 26px;
       text-align: center;
       color: #333D4B;
+}
+
+
+/* =======================section====================== */
+
+.middili{
+      margin-bottom: 200px;
+}
+
+.middili__box{
+      background-image: url('../images/Bitmap-8png.png');
+      background-repeat: no-repeat;
+      background-size: 1280px 577px;
+      background-position: calc(50%) calc(50% - 70px);
+      margin-bottom: 200px;
+}
+
+.middil__titl{
+      padding-top: 100px;
+      margin: 0;
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 48px;
+      text-align: center;
+      color: #FEFCF7;
+      margin-bottom: 22px;
+}
+
+.middil__text{
+      font-size: 16px;
+      line-height: 26px;
+      text-align: center;
+      margin: 0 auto;
+      color: #FEFCF7;
+      width: 540px;
+      margin-bottom: 86px;
+}
+
+.type__item--size{
+      display: flex;
+      /* justify-content: space-between; */
+      /* width: 1110px; */
+      text-align: center;
+      margin: 0 auto;
+      padding: 0px 110px;
+}
+
+.type__list--size{
+      width: 350px;
+      height: 382px;
+      background-color: #0E8784;
+      border-radius: 8px;
+      padding: 78px 48px 48px;
+      text-align: center;
+      list-style: none;
+      margin-right: 30px;
+}
+
+.type__list--size:nth-child(3){
+      margin-right: 0;
+}
+
+.type__img--location{
+      width: 72px;
+      height: 72px;
+      margin-bottom: 47px;
+}
+
+.type__titl--color{
+      color: #FEFCF7;
+      margin-bottom: 22px;
+}
+
+.type__text--color{
+      color: #FEFCF7;
+}
+
+/* =====================section========================= */
+
+.services{
+      padding: 0px 125px;
+      margin-bottom: 200px;
+}
+
+.sevices__box{
+      display: flex;
+      margin-bottom: 67px;
+      align-items: center;
+}
+
+.sevices__works{
+      font-weight: 900;
+      font-size: 24px;
+      line-height: 32px;
+      color: #83888F;
+      margin-bottom: 80px;
+}
+
+.services__circle{
+      display: block;
+      width: 31px;
+      height: 31px;
+      background: #FEFCF7;
+      border: 2px solid #0E8784;
+      border-radius: 50%;
+}
+
+.services__line{
+      display: block;
+      width: 300px;
+      height: 2px;
+      border-bottom: 2px solid #FDD6BA;
+}
+
+.type__item--location{
+      display: flex;
+      justify-content: space-between;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      margin-bottom: 67px;
+}
+
+.type__list--location{
+      width: 285px;
+      margin-right: 95px;
+}
+
+.type__img--location{
+      width: 90px;
+      height: 72px;
+}
+
+.type__titl--location{
+      margin: 0;
+      font-weight: 900;
+      font-size: 32px;
+      line-height: 36px;
+      color: #333D4B;
+      margin-bottom: 48px;
+}
+
+.type__text--location{
+      margin: 0;
+      font-size: 16px;
+      line-height: 26px;
+      color: #333D4B;
+      width: 285px;
+}
+
+/* =====================footer============== */
+
+.intro--traps{
+      width: 1280px;
+      height: 125px;
+      background: #2C343E;
+      padding: 85px 47px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 135px;
+}
+
+.intro__link--location{
+      margin-right: 103px;
+      text-decoration: none;
+}
+
+.menu__item--location{
+      list-style: none;
+      display: flex;
+      margin: 0;
+      margin-right: 329px;
+}
+
+.menu__list--location{
+      margin-right: 33px;
+}
+
+.menu__link--location{
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 12px;
+      line-height: 15px;
+      letter-spacing: 0.923077px;
+      text-transform: uppercase;
+      color: #83888F;
+}
+
+.menu__link--location:hover{
+      color: #FEFCF7;
+}
+
+.tran__link{
+      text-decoration: none;
+}
+
+.trans__img{
+      width: 24px;
+      height: 24px;
+      margin-right: 24px;
+}
+
+.trans__img:hover{
+      background-color: #FDD6BA;
 }
