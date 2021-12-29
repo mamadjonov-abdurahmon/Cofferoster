@@ -139,7 +139,7 @@ body{
 /* =====================MAIN===================== */
 
 .main{
-      padding:116px 55px ;
+      padding:116px 85px ;
       background-image: url('../images/Bitmap-1vg.svg');
       background-size: 1290px 595px ;
       background-repeat: no-repeat;
@@ -148,7 +148,8 @@ body{
       margin-bottom: 118px;
 }
 
-.main__titl{
+.main__great{
+      text-decoration: none;
       margin: 0;
       font-family: Fraunces ;
       font-style: normal;
@@ -228,7 +229,8 @@ body{
       margin-bottom: 71px;
 }
 
-.type__titl{
+.type__gran{
+      text-decoration: none;
       font-weight: 900;
       font-size: 24px;
       line-height: 32px;
@@ -258,7 +260,8 @@ body{
       margin-bottom: 200px;
 }
 
-.middil__titl{
+.middil__choose{
+      text-decoration: none;
       padding-top: 100px;
       margin: 0;
       font-weight: 900;
@@ -309,7 +312,8 @@ body{
       margin-bottom: 47px;
 }
 
-.type__titl--color{
+.type__link{
+      text-decoration: none;
       color: #FEFCF7;
       margin-bottom: 22px;
 }
@@ -332,7 +336,8 @@ body{
       align-items: center;
 }
 
-.sevices__works{
+.services__how{
+      text-decoration: none;
       font-weight: 900;
       font-size: 24px;
       line-height: 32px;
@@ -375,7 +380,8 @@ body{
       height: 72px;
 }
 
-.type__titl--location{
+.services__link{
+      text-decoration: none;
       margin: 0;
       font-weight: 900;
       font-size: 32px;
@@ -451,7 +457,7 @@ body{
 /* ====================index.html-2====================== */
 
 .wrap{
-      padding:116px 45px ;
+      padding:116px 85px ;
       background-image: url('../images/Bitmapғ31.svg');
       background-size: 1280px 450px ;
       background-repeat: no-repeat;
@@ -482,7 +488,8 @@ body{
       vertical-align: middle;
 }
 
-.commitment__titl{
+.commitment__link{
+      text-decoration: none;
       font-family: Fraunces;
       font-style: normal;
       font-weight: 900;
@@ -533,7 +540,8 @@ body{
       right: 650px;
 }
 
-.commitment__titl--location{
+.commitment__quality{
+      text-decoration: none;
       margin: 0;
       margin-bottom: 32px;
       font-family: Fraunces;
