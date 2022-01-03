@@ -148,8 +148,7 @@ body{
       margin-bottom: 118px;
 }
 
-.main__great{
-      text-decoration: none;
+.main__titl{
       margin: 0;
       font-family: Fraunces ;
       font-style: normal;
@@ -159,6 +158,10 @@ body{
       color: #FEFCF7;
       width: 553px;
       margin-bottom: 38px;
+}
+
+.main__great{
+      text-decoration: none;
 }
 
 .main__text{
@@ -260,7 +263,7 @@ body{
       margin-bottom: 200px;
 }
 
-.middil__choose{
+.middil__titl{
       text-decoration: none;
       padding-top: 100px;
       margin: 0;
@@ -283,7 +286,6 @@ body{
 }
 
 .type__item--size{
-      position: absolute;
       z-index: +1;
       display: flex;
       text-align: center;
@@ -324,9 +326,12 @@ body{
 
 /* =====================section========================= */
 
+.services__section{
+      margin-bottom: 200px;
+}
+
 .services{
       padding: 0px 110px;
-      margin-bottom: 200px;
       margin: 0 auto;
 }
 
@@ -336,13 +341,16 @@ body{
       align-items: center;
 }
 
-.services__how{
-      text-decoration: none;
+.sevices__works{
       font-weight: 900;
       font-size: 24px;
       line-height: 32px;
       color: #83888F;
       margin-bottom: 80px;
+}
+
+.services__how{
+      text-decoration: none;
 }
 
 .services__circle{
@@ -380,8 +388,7 @@ body{
       height: 72px;
 }
 
-.services__link{
-      text-decoration: none;
+.type__titl--location{
       margin: 0;
       font-weight: 900;
       font-size: 32px;
@@ -390,12 +397,20 @@ body{
       margin-bottom: 48px;
 }
 
+.services__link{
+      text-decoration: none;
+}
+
 .type__text--location{
       margin: 0;
       font-size: 16px;
       line-height: 26px;
       color: #333D4B;
       width: 285px;
+}
+
+.main__link--location{
+      margin-bottom: 200px;
 }
 
 /* =====================footer============== */
