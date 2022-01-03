@@ -286,6 +286,7 @@ body{
 }
 
 .type__item--size{
+      position: absolute;
       z-index: +1;
       display: flex;
       text-align: center;
